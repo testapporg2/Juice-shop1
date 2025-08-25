@@ -21,11 +21,6 @@ jobs:
     steps:
       - name: Checkout Source
         uses: actions/checkout@v4
-
-      # Step 6: Install Node.js dependencies
-      - name: Install npm dependencies
-        run: npm install
-        
       - name: Polaris Security Scan
         id: polaris-scan
         uses: blackduck-inc/black-duck-security-scan@v2
