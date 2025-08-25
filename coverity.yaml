@@ -1,0 +1,4 @@
+capture:
+  build:
+    build-command: "npm install"
+    clean-command: "npm cache clean --force"
